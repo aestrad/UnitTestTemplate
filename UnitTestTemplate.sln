@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureBlobStorageClient.Tests", "AzureBlobStorageClient.Tests\AzureBlobStorageClient.Tests.csproj", "{C339C7D2-C670-4977-90D1-319D47D09174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureBlobStorageClient", "AzureBlobStorageClient\AzureBlobStorageClient.csproj", "{287D822C-DC58-4D2D-85BF-0C19046B42EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{93F84E83-4541-43C9-9A4B-FEA7A3CA5323}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureBlobStorageClient.Tests", "AzureBlobStorageClient.Tests", "{963B3B6A-98EF-4744-B5F7-B39A90303A49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureBlobStorageClient.Benchmarks", "AzureBlobStorageClient.Benchmarks", "{4C391125-F29B-42D4-B9A5-8FF5ABE47261}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{41E0C269-6ACA-48A3-A058-A53757B8F1AF}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C339C7D2-C670-4977-90D1-319D47D09174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C339C7D2-C670-4977-90D1-319D47D09174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C339C7D2-C670-4977-90D1-319D47D09174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C339C7D2-C670-4977-90D1-319D47D09174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{287D822C-DC58-4D2D-85BF-0C19046B42EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287D822C-DC58-4D2D-85BF-0C19046B42EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287D822C-DC58-4D2D-85BF-0C19046B42EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287D822C-DC58-4D2D-85BF-0C19046B42EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C339C7D2-C670-4977-90D1-319D47D09174} = {963B3B6A-98EF-4744-B5F7-B39A90303A49}
+		{963B3B6A-98EF-4744-B5F7-B39A90303A49} = {93F84E83-4541-43C9-9A4B-FEA7A3CA5323}
+		{4C391125-F29B-42D4-B9A5-8FF5ABE47261} = {93F84E83-4541-43C9-9A4B-FEA7A3CA5323}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59DD457B-16E7-4842-B4D8-E7110B445417}
+	EndGlobalSection
+EndGlobal
