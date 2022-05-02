@@ -17,7 +17,7 @@ namespace AzureBlobStorageClient.Tests
         /// No calls to third party APIs, original test takes 91 ms to run.
         /// </summary>
         [Fact]
-        public async Task Should_be_able_create_a_blob()
+        public async Task BlobClient_CreateAndRetrieveBlobs()
         {
 
             /// Arrange
